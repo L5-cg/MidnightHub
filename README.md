@@ -29,4 +29,4 @@ Location Waypoints
 
 should work with most executors
 
-`loadstring(game:HttpGet("https://raw.githubusercontent.com/L5-cg/L5cg/main/101.lua", true))()`
+`loadstring(game:HttpGet("https://raw.githubusercontent.com/L5-cg/MidnightHub/main/script.lua", true))()`
