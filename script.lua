@@ -47,6 +47,7 @@ Window:Toggle({
       if bool == false then
         --nc f
       end
+      wait(0.5)
     end
   
 })
