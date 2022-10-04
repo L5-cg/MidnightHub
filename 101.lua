@@ -4,7 +4,7 @@ local lp = game.Players.LocalPlayer
 local hum = game.Players.LocalPlayer.Character.Humanoid
 --Library.DefaultColor = Color3.fromRGB(65, 143, 232)
 local Window = Library:Window({
-    Text = "/Local"
+    Text = "Midnight/Local"
 })
 Window:Slider({
   Text = "Walk Speed",
@@ -18,7 +18,7 @@ Window:Slider({
     end
   end
 })
--- fill in with values that actually make sense 
+-- fill in with values that actually make sense V
 Window:Slider({
   Text = "Jump Power",
   Default = 0,
@@ -34,15 +34,28 @@ Window:Slider({
 Window:Toggle({
   Text = "Fly",
   Callback = function(bool)
-    -- t/f fly  code here 
+    -- t/f 
   end
 })
 Window:Toggle({
   Text = "Noclip"
   Callback = function(bool)
-    
-  end
+    while true do
+      if bool == true then
+        --nc t
+      end
+      if bool == false then
+        --nc f
+      end
+    end
   
+})
+
+Window:Button({
+  Text = "Safe Reset"
+  Callback = function()
+    lp.Character.CFrame = CFrame.new(0, -0, 0)
+  end
 })
 Window:Dropdown({
   Text = "Stores",
