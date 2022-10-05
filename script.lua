@@ -102,7 +102,9 @@ Window3:Slider({
    Minimum = 1,
    Maximum = 50,
    Callback = function(value)
-       print(value)
+       while true do
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+            wait(0.1)
    end
 })
 
