@@ -29,6 +29,12 @@ Location Waypoints
 
 ### The Script
 
+key will be updated daily, just to make sure people aren't reuploading my work to linkvertise (FUCK YOU) or joining my discord then leaving right after.
+
 auto update loadstring
 
 `loadstring(game:HttpGet("https://raw.githubusercontent.com/L5-cg/MidnightHub/main/script.lua", true))()`
+
+key (as of 10/7/2022)
+
+`xxxxxxxxxxxxxxxxxxxxx`
